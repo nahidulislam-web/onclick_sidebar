@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgb(1, 98, 177);
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.barIcon{
+    font-size: 2.5rem;
+    float: right;
+    margin-right: 30px;
+    margin-top: 9px;
+    color: white;
+}
+.sidebar{
+    width: 300px;
+    height: 700px;
+    background-color: rgb(37, 177, 158);
+    position: fixed;
+    transition: 0.5s;
+}
+.sidebarClose{
+    width: 0px;
+    height: 700px;
+    background-color: rgb(37, 177, 158);
+    position: fixed;
+    transition: 0.5s;
+}
+.nav a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+    margin-top: 30px;
+    color: rgb(41, 100, 78);
+    text-decoration: none;
+}
+.nav a.open{
+    display: block;
+}
+.nav{
+    text-align: center;
+}
